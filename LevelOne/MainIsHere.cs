@@ -8,15 +8,8 @@ namespace LevelOne
         {
             Console.WriteLine("Hello LP1!");
             Console.WriteLine("Bad day?");
-            Console.WriteLine("Hello LP1!");
-            extra_print();
-        }
-
-        private static void extra_print()
-        {
-            Console.WriteLine("Hello LP1!");
-            Console.WriteLine("Bad day?");
-            Console.WriteLine("Hello LP1!");
+            Console.WriteLine("Nice day!");
+            Console.WriteLine("Bye!");
         }
     }
 }
