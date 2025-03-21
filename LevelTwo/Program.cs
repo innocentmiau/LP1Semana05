@@ -7,9 +7,10 @@ namespace LevelTwo
     {
         private static void Main(string[] args)
         {
-            CanvasImage image = new CanvasImage("tux.jpg");
-
-            image.MaxWidth(20);
+            string imagePath = args.Length > 0 ? args[0] : "tux.jpg";
+            CanvasImage image = new CanvasImage(imagePath);
+            int width = args.Length > 1 ? int.Parse(args[1]) : 24;
+            image.MaxWidth(width);
             
             AnsiConsole.Write(image);
         }
