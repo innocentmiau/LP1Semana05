@@ -4,7 +4,7 @@ using Spectre.Console;
 
 namespace LevelTwo
 {
-    public class SoGoodClass
+    public class LevelTwo
     {
         private static void Main(string[] args)
         {
